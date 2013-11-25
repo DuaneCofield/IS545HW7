@@ -1,0 +1,217 @@
+﻿
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+ }
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* styles for removing the background from form */
+.no-color {
+  background-color: white;
+  border-style:none;
+}body
+{
+    text-align:center;
+    border-bottom-color:green;
+    border-top-color:green;
+    border-left-color:green;
+    border-right-color:green;
+       
+     
+}
+
+Title
+{
+    text-align:center;
+    
+    width: 600px;
+    font-family:'Times New Roman';
+}
+p
+{
+    display:inline;
+    
+}
+
+header p {
+    text-align: center;
+}
+
+#hr
+{
+    margin: 30px auto 30px auto;
+    border:solid 5px green; 
+}
+header
+{
+    text-align:center;
+}
+nav
+{
+    text-align:right;
+    padding: 2cm 2cm 2cm 2cm;
+    width:1000px;
+}
+Box
+{
+    width:220px;
+    padding:10px;
+    border:5px solid gray;
+    margin:0px;
+}
+a:link
+{
+    textdecoration-none;
+}
+a:hover
+{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+footer {
+    
+    text-align: center;
+    margin-left: 200px;
+    border-top: double;
+    padding-top: 5px;
+    width: 1000px;
+}
+.footer li {
+    display: inline;
+}
+
+h1
+{
+    text-align:center;
+    font-family:'Times New Roman';
+    color:blue;
+
+}
+.Title h1 {
+    text-align:center;
+    font-family:'Times New Roman';
+    color:black;
+    border-bottom-color:#00ff00;
+    padding-bottom: 40px;
+}
+h2 {
+    color: Black;
+}
+h3 {
+    color: purple;
+    font-size: 120%;
+    text-align: left;
+    text-indent: 300px;
+}
+    
+form
+{
+    text-align: left;
+    margin-left:350px;
+    width: 600px;
+    
+    border: 3px solid green;
+    padding:10px;
+}
+
+fieldset
+{
+    text-align: left;
+    
+}
+label
+{
+    text-align: left;
+   
+}
+legend {
+    text-align: left;
+  
+  
+}
+ nav li
+{
+    display:inline;
+    margin-bottom: 2cm;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    width: 600px;
+    
+}
+img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right:100px;
+}
+.Experience {
+    text-align: left;
+    text-indent:300px
+}
+.please {
+    text-align: center;
+    color: purple;
+    margin-right:300px;
+}
+ul li {
+  display:block-inline;
+ 
+  
+
+}
+ul, ol {
+    list-style-position: outside;
+    margin-left:300px;
+   text-indent:0px;
+}
+}
+td {
+    padding: 20px 20px 20px 20px;
+}
+table {
+    width: 1000px;
+}
+ select {
+    width: 120px;
+    float: center;
+    margin-top: 0.4em;
+}
+input.reset {
+    float: left;
+    margin-left:300px;
+}
+.demo {
+    text-align: center;
+    color: purple;
+    font-size:150%;
+    
+    
+}
+p.interest {
+    display: inline;
+}
+submit {
+    display: inline;
+}

@@ -1,0 +1,106 @@
+﻿@{
+    ViewBag.Title = "WebForm";
+}
+
+<div class="form">
+    <h2>Welcome to my Web Form </h2>
+    <p class="demo">A demo form for hotel room reservation</p>
+
+    <form action="mailto: cofieldd@gmail.com">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label>
+                Full Name:
+                <input type="text" name"firstname lastname" placeholder="Firstname Lastname" size="30" maxlength="100" />
+            </label>
+            <br />
+            <label>
+                Email Address:
+                <input type="e-mail" name="e-mail" size="30" maxlength="100">
+            </label>
+            <br />
+            <label>
+                Phone:
+                <input type="text" name="Phone Number" size="30" maxlength="30" />
+            </label>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Room Information</legend>
+            <label>
+                Arrival Date
+            </label>
+            <input type="datetime" name="date" placeholder="mm/dd/yyyy" /><select name="Date"></select>
+            <br />
+            <label>Arrival Time</label>
+            <input type="time" name"time" placeholder="--:-- --">
+            <br />
+            <label>Select Room Type</label>
+            <select name="Room Type">
+                <option value="Luxury">Luxury</option>
+                <option value="Business Class">Business Class</option>
+                <option value="Economy">Economy</option>
+            </select>
+
+            <br />
+
+            <label>Number of Nights (Valid Number is from 1 to 30): </label>
+            <select name="Number of Nights">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            <br />
+
+            <label>Number of Guest (Maximum Guest is 3)</label>
+            <select name="Number of Guest">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Other Information</legend>
+            <label>Promo Code:</label>
+            <input type="text" name="Promo code" size="15" maxlength="4" />
+            <br />
+            <label>Special Note</label>
+
+            <textarea name="comments" placeholder="Enter Your special note here..." cols="40" rows="5"></textarea>
+            <div class="submit">
+                <input type="Reset" value="Clear Form" name="Clear Form"></input> <input type="submit" value="Request Reservation" name="Request Reservation" /></input>
+            </div>
+    </form>
+    </fieldset>
+</div>
+
+   
+<br />

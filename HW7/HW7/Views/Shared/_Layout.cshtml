@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Duane D. Cofield</title>
+    @Styles.Render("~/Content/css")
+    
+
+</head>
+<body>
+    <div id="header">
+        <header>
+            <div class="Title">
+                <h1>Cofield, Duane Homework 7</h1>
+                </div>
+                </header>
+           
+        <div id="hr">
+          
+ <nav>
+                <ul>
+                    <li>@Html.ActionLink("Home","Index","Home")</a></li>
+                    <li>@Html.ActionLink("Webform", "Webform", "Home")</a></li>
+                    <li>@Html.ActionLink("AboutMe", "AboutMe", "Home")</li>
+                </ul>
+            </nav>
+          
+        @RenderBody()
+        </div>
+  <div id="footer">
+        <footer>
+            <contact>
+
+                <table>
+                    <tr>
+                        <td>Duane Cofield&copy Contact Information</td>
+                        <td>
+                            <a href="mailto:cofieldd@gmail.com">
+                               E-Mail cofieldd@gmail.com
+                            </a>
+                        </td>
+                        <td>
+                            <em>Phone: (310) 703-7839</em>
+                        </td>
+                    </tr>
+                </table>
+            </contact>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
